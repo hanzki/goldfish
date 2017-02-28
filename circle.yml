@@ -1,6 +1,10 @@
+dependencies:
+  post:
+    - bundle exec jekyll build
+
 test:
   override: 
-      - echo "No tests" 
+    - echo "No tests" 
 
 deployment:
   production:
