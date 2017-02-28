@@ -1,0 +1,10 @@
+test:
+  override: 
+      - echo "No tests" 
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - JEKYLL_ENV=production bundle exec jekyll build
+      - aws s3 cp --recursive ./_site/ s3://goldfish-blog/
