@@ -30,6 +30,8 @@ linkedin_name: Hannu Huhtanen
 disqus:
   shortname: huhtanen
 
+google_analytics: UA-92785356-1
+
 # Build settings
 markdown: kramdown
 theme: minima
