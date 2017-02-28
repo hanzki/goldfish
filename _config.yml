@@ -21,11 +21,14 @@ description: > # this means to ignore newlines until "baseurl:"
   memory of a goldfish (at least if you ask my 
   girlfriend). Currently located in Helsinki, Finland area.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://goldfish-blog.s3-website-eu-west-1.amazonaws.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: hanzki
 linkedin_username: hannu-huhtanen-032bb5a6
 linkedin_name: Hannu Huhtanen
+
+disqus:
+  shortname: huhtanen
 
 # Build settings
 markdown: kramdown
