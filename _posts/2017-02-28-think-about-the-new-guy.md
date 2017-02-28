@@ -2,6 +2,7 @@
 layout: post
 title:  "Think about the new guy"
 date:   2017-02-28 20:00:00 +0200
+tags: team documentation tests
 ---
 
 You probably have worked at some point in a project with the sizable codebase, little to none documentation, no tests, and the development environment took at least a day for you to set up when you started in the project. This project probably had a quite small team and developers in the team had been working with the codebase for a long time. People in the team are aware of the lack of documentation and tests but never get around to doing anything about it because they are busy working on new code and fixing the old one. Also, documentation is seen as a waste of time as the code “documents itself” and, anyway, the current team has been working with the code so long that they know the codebase back to front so why would they need anything written down?
