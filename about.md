@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about/index.html
 ---
 
 I decided to start this blog so that I could share my opinions and skills with anyone who might be interested in reading about them. Also I wanted to train my writing skills and have 
