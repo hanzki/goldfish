@@ -17,9 +17,8 @@ title: Reflections of a goldfish
 email: hannu@huhtanen.eu
 description: > # this means to ignore newlines until "baseurl:"
   Personal blog of Hannu Huhtanen a software 
-  developer with a passion for good code and a 
-  memory of a goldfish (at least if you ask my 
-  girlfriend). Currently located in Helsinki, Finland area.
+  developer with a passion for good code and craving for learning.
+  Currently located in Helsinki, Finland area.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.huhtanen.eu" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
