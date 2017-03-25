@@ -15,6 +15,7 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$tag-color:		   lightgray;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -40,4 +41,28 @@ $on-laptop:        800px;
 
 .icon {
 	color: $grey-color;
+}
+
+.icon-tag {
+	color: darken($tag-color, 25%);
+}
+
+.tag-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h2 + ul.tag-list {
+	position: relative;
+	top: -15px;
+}
+
+.post-tag {
+	font-size: 12px;
+	display: inline;
+	background-color: $tag-color;
+	padding: 3px;
+	border: darken($tag-color, 25%) solid 1px;
+	border-radius: 5px;
 }
