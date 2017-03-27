@@ -12,3 +12,4 @@ deployment:
     commands:
       - JEKYLL_ENV=production bundle exec jekyll build
       - aws s3 sync --delete ./_site/ s3://blog.huhtanen.eu/
+      - aws cloudfront create-invalidation --distribution-id EDMH0RUVBGYYX --paths "/*"
