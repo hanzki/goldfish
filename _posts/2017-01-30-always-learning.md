@@ -3,6 +3,9 @@ layout: post
 title:  "Always learning"
 date:   2017-01-30 20:00:00 +0200
 tags: learning blog
+excerpt: >
+    Work of a software engineer needs constant learning. Luckily nowadays
+    there are many ways to improve ourselves. Turn your commute into a moment of learning!
 ---
 
 In the software industry, everything is always advancing at a breakneck pace. Everything around us is considerably new. Consumer use of the Internet started just about 25 years ago, Javascript about 20 years ago, Git version control 10 years, Stack Overflow 8 years, Docker 3 years, etc. Also at the same time, a lot of old technologies, practices, and frameworks become obsolete and are abandoned. No one can be sure that the tools and frameworks they use today are going to be in use 5 years from now.

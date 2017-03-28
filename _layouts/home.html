@@ -22,7 +22,7 @@ layout: default
           {% endfor %}
         </ul>
 
-        {{ post.excerpt }}
+        <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
         <a class="read-more" href="{{ post.url | relative_url }}">Read more</a>
 
       </li>
