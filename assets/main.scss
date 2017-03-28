@@ -57,8 +57,17 @@ $on-laptop:        800px;
 	}
 }
 
-.site-nav .page-link {
+.page-link {
 	color: $header-hl-color;
+}
+@media screen and (max-width: 600px) {
+	.site-nav{
+		background-color: $header-bg-color;
+		border: none;
+		.menu-icon > svg path {
+			fill: $header-sub-color;
+		}
+	}
 }
 
 .site-footer {
