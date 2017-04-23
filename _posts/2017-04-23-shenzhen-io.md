@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "SHENZHEN I/O"
+date:   2017-04-23 21:30:00 +0300
 tags: games puzzles
 excerpt: >
     What's a better way to chill after a long day of coding at the office? Of course
