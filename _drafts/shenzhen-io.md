@@ -36,6 +36,9 @@ them. Also, the number of lines of code that you can fit into a processor is ver
 ![Advanced Shenzhen I/O puzzle]({{ site.url }}/assets/images/shenzhen-screenshot-hard.png)
 *An example of a much harder puzzle*
 
+The assembly-like language used in the game is also interesting and deserves a special mention. I don't want to go in depth
+here about its intrigues, but I might write a separate post about it later.
+
 In conclusion, I highly recommend Shenzhen I/O. Even for someone like me who codes all the day at work, it’s possible to
 find great joy in developing fictional gizmos for a fictional company in the evening. Shenzhen I/O is available for
 Windows, Linux and OSX on [Steam][steam] for 14.99€.
