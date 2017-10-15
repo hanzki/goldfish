@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Chatbots made easy with Dialogflow"
+date:   2017-10-15 20:15:00 +0300
 tags: dialogflow chatbots hobby-project tech
 excerpt: >
     Dialogflow is a platform for creating rich chatbot experiences. It allows developer to focus 
