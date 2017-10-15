@@ -12,7 +12,7 @@ I recently decided to try out the latest puzzle game from [Zachtronics][zachtron
 A friend of mine had recommended it to me after I had sent him a link to an interesting video of
 [a guy building his own iPhone][iphoneguy] in Shenzhen, China.
 
-![Shenzhen I/O puzzle]({{ site.url }}/assets/images/shenzhen-screenshot.png)
+![Shenzhen I/O puzzle]({{ site.url }}/assets/images/shenzhen-screenshot.jpg)
 *An example of a Shenzhen I/O puzzle*
 
 In Shenzhen I/O you take the role of a British electronics engineer who after having a hard time finding employment in the UK
@@ -34,7 +34,7 @@ Later in the game, the puzzles start to get more difficult and you run into the 
 most valuable resource as the processors take a lot of space and connecting them is difficult when you have many of
 them. Also, the number of lines of code that you can fit into a processor is very small.
 
-![Advanced Shenzhen I/O puzzle]({{ site.url }}/assets/images/shenzhen-screenshot-hard.png)
+![Advanced Shenzhen I/O puzzle]({{ site.url }}/assets/images/shenzhen-screenshot-hard.jpg)
 *An example of a much harder puzzle*
 
 The assembly-like language used in the game is also interesting and deserves a special mention. I don't want to go in depth
