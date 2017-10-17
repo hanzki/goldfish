@@ -98,6 +98,10 @@ a.site-title, a.site-title:visited {
 	}
 }
 
+.post-header {
+	overflow: hidden;
+}
+
 .post-meta {
 	color: $sub-text-color;
 }
@@ -133,10 +137,11 @@ h2 + ul.tag-list {
 
 .post-tag {
 	font-size: 12px;
-	display: inline;
+	display: inline-block;
 	background-color: $tag-bg-color;
 	color: $tag-text-color;
-	padding: 3px;
+	padding: 1px 3px;
 	border: darken($tag-bg-color, 25%) solid 1px;
 	border-radius: 5px;
+	white-space: nowrap;
 }
