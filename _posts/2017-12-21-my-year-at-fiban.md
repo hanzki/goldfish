@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My year at FiBAN"
-date:   2017-12-21 10:30:00 +0200
+date:   2017-12-21 10:45:00 +0200
 tags: 
 - FiBAN
 - non-military service
@@ -59,7 +59,7 @@ understandable aversion of complex technical solutions as the office personnel w
 maintenance of such systems after my departure and buying these services could be expensive.
 
 I spent my time in the spring chasing different ideas but felt my time was partly wasted as there was a severe lack of 
-commitment to and focus on any single idea. I did utilise my technical skills in updating the FiBAN website, but it 
+commitment to and focus on any single idea. I did use my technical skills to update the FiBAN website, but it 
 wasn’t a pleasant experience as the pages were built on top of the [Weebly][weebly] content management system, which is quite 
 horrible to use. Weebly’s editor feels extremely sluggish to use and contains many inconsistent “features” which make 
 building a website a very exasperating experience.
@@ -77,12 +77,12 @@ The first project I created that was really adopted by FiBAN and its members was
 system. It was for FiBAN’s investor members to book a meeting room from the FiBAN office without needing to bother 
 our office staff.
 
-The largest project that I undertook was a web service for [NordicBAN][nordicban] (another angel network that FiBAN participated 
+The most important project that I undertook was a web service for [NordicBAN][nordicban] (another angel network that FiBAN participated 
 in founding this year) where the investor members can find and connect with each other. The service provides user 
 authentication so the information would be only available to the members of the angel network. Investors can also 
 browse open investment rounds and auxiliary documents.
 
-This summer I happened to buy a camera for my trip to China and decided to start  photographing as a hobby. 
+This summer I happened to buy a camera for my trip to China and decided to start photographing as a hobby. 
 This proved to be very useful at FiBAN as FiBAN organizes many events but only has a few good photos from the events. 
 This was a need I noticed and one that I could fulfil while doing something I enjoy and improve my skills.
 
@@ -94,17 +94,17 @@ find interesting.
 ### Business Angels, Who Are They?
 
 Following the activities of FiBAN, I learned a lot about how the investor side of the startup culture work. Before 
-this, my contacts to the startup community had been mostly limited to attending to a couple of events organized by the 
+this, my exposure to the startup community had been mostly limited to attending to a couple of events organized by the 
 [AaltoES][aaltoes] at our university.
 
 I got to see what kind of people the business angels are. They are a very interesting bunch and many have a background 
 in entrepreneurship. At FiBAN some call angel investing as co-entrepreneurship and I can attest that as an angel 
-investor telling about his/her investment sounds like the entrepreneur telling about his/her startup.
+investor telling about his/her investment has the same energy as the startup founder telling about his/her startup.
 
 ### Startups & Pitches
 
 I also got to see what good and bad startup pitches look like. I also learned that the pitch alone doesn’t raise an 
-investor’s interest as one can make an interesting pitch about a bad idea, but a startup with a horrible pitch can have 
+investor’s interest as one can make an interesting pitch about a bad idea, but a startup with a horrible pitch can still have 
 a good idea. The pitches I saw further showed that there are many startups trying to solve very similar problems. So, 
 I would say based on seeing a single pitch or single startup it can be hard to say if it’s good or not but when you go 
 through dozens it’s easier to notice the ones that stand out.
@@ -113,7 +113,7 @@ through dozens it’s easier to notice the ones that stand out.
 
 Even though in the spring I had problems finding my role in FiBAN that gave me more free time to think about my own 
 future and things I want to do and achieve. This enabled me to begin writing this blog, something I had already been 
-thinking of doing for some time. Similarly, I have tried to read more this year. I have managed to read Building 
+thinking of doing for some time. Similarly, I have tried to read more this year. This year I managed to read Building 
 Microservices by Sam Newman, Clean Code by Robert C. Martin, and I have almost finished Working Effectively with 
 Legacy Code by Michael Feathers.
 
@@ -124,9 +124,9 @@ Google Forms, Gmail and Google Calendar. All of these different services could b
 the use of [Google Apps Script][gas].
 
 ## Conclusion
-I’m very happy for choosing non-military service over the military service. Even though it could have been fun 
-running in the forest playing war, I much rather work in a clean office in the middle of Helsinki and sleep nights 
-at home in my own bed.
+I’m very happy for choosing non-military service over the military service. Even though running in the forest playing war
+could have been fun, I much rather improve my professional skills while working in a clean office in the middle of 
+Helsinki and sleeping nights at home in my own bed.
 
 I profusely enjoyed my time at FiBAN. During the year I met and got to know many very talented and hard-working 
 people. I feel I could really bring value to FiBAN but also improve my skills and myself over the year.
