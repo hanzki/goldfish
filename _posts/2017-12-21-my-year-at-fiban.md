@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "My year at FiBAN"
+date:   2017-12-21 10:30:00 +0200
 tags: 
+- FiBAN
+- non-military service
 - work
 - learning
-- non-military service
-- FiBAN
 excerpt: >
     I spent most of 2017 doing my non-military service at Finnish Business Angels Network. 
     Everything didn't go as planned, but I learned a lot. Here's my story.
@@ -68,6 +69,9 @@ could properly utilize my skills and thought I would be doomed to do menial task
 eventually things did turn around and I found ways in which I could really make an impact.
 
 ### Making an Impact
+
+![NordicBAN Angel List service]({{ site.url }}/assets/images/nordicban_angellist.jpg)
+*A screenshot of the web service I created for NordicBAN*
 
 The first project I created that was really adopted by FiBAN and its members was an automatic meeting room reservation 
 system. It was for FiBAN’s investor members to book a meeting room from the FiBAN office without needing to bother 
