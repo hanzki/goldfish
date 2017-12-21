@@ -59,7 +59,7 @@ understandable aversion of complex technical solutions as the office personnel w
 maintenance of such systems after my departure and buying these services could be expensive.
 
 I spent my time in the spring chasing different ideas but felt my time was partly wasted as there was a severe lack of 
-commitment to and focus on any single idea. I did use my technical skills to update the FiBAN website, but it 
+commitment to and focus on any single idea. I did use my technical skills to update the [FiBAN website][fiban], but it 
 wasn’t a pleasant experience as the pages were built on top of the [Weebly][weebly] content management system, which is quite 
 horrible to use. Weebly’s editor feels extremely sluggish to use and contains many inconsistent “features” which make 
 building a website a very exasperating experience.
