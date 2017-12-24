@@ -7,6 +7,7 @@ tags:
 - non-military service
 - work
 - learning
+image: assets/images/fiban_slogan_logo_for_web.jpg
 excerpt: >
     I spent most of 2017 doing my non-military service at Finnish Business Angels Network. 
     Everything didn't go as planned, but I learned a lot. Here's my story.
