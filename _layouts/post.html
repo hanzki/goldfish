@@ -21,6 +21,15 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="page-navigation">
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-left" aria-hidden="true"></i> {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+    {% endif %}
+  </div>
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

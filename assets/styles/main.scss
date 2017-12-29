@@ -145,3 +145,24 @@ h2 + ul.tag-list {
 	border-radius: 5px;
 	white-space: nowrap;
 }
+
+.page-navigation {
+	display: block;
+	width: auto;
+	overflow: hidden;
+
+	a {
+		display: block;
+		width: 50%;
+		margin: 1em 0;
+	}
+
+	.prev {
+		float: left;
+	}
+
+	.next {
+		float: right;
+		text-align: right;
+	}
+}
