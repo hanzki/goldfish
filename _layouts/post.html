@@ -21,6 +21,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% include author-info.html %}
+
   <div class="page-navigation">
     {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-left" aria-hidden="true"></i> {{page.previous.title}}</a>

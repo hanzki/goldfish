@@ -166,3 +166,46 @@ h2 + ul.tag-list {
 		text-align: right;
 	}
 }
+
+div.author-info {
+	background-color: $primary-neutral-light;
+	color: $primary-gray;
+	padding: 1.5em 1em;
+	border-radius: 0.5em;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0px 4px 6px 0px #888888;
+
+	@media screen and (max-width: 600px) {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.author-image-wrapper {
+		width: 50%;
+		max-width: 150px;
+		margin: 0 0.5em 0.5em;
+		text-align: center;
+
+		.author-image {
+			border-radius: 100%;
+			filter: sepia(30%);
+		}
+
+	}
+
+	.author-desc {
+		width: 100%;
+		margin: 0 0.5em;
+
+		.author-name {
+			margin-bottom: 0.5em;
+			color: $primary-neutral-dark;
+		}
+
+		.author-desc-text {
+			font-size: $small-font-size;
+		}
+	}
+}
