@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The day I deleted my \"favourite\" apps"
+title:  "Why I deleted my \"favourite\" apps"
 tags: personal procrastination productivity
 excerpt: >
     I deleted Facebook & Reddit in effort to curb my smartphone addiction. However, the habit turned out to be musch
@@ -25,7 +25,7 @@ phone whatever I was thinking of before taking my phone out would be replaced by
 
 The apps that consumed most of my time were Reddit and Facebook. Even though I rarely posted anything on either platform,
 they were my go-to distractions when my brain started to grave an instant gratification instead of focusing on whatever
-I should be doing. I realised that this duo needs to go.
+I should be doing. I realised that this duo needed to go.
 
 So, I decided to try to put a stop to it. It’s been over three months now, and I want to tell about how my experiment
 has worked out. Spoilers: Changing one’s habits is hard.
@@ -46,7 +46,7 @@ on my computer. No one noticed my absence as I very seldom posted on either of t
 ## Difficulties
 
 However, slowly over time my motivation and discipline started to wane. I noticed myself using more and more time on my
-phone. I still haven’t re-installed the facebook and Reddit apps I removed, but procrastination always finds a way.
+phone. I still haven’t re-installed Facebook or Reddit, but procrastination always finds a way.
 
 In the absence of Facebook or Reddit, my phone usage shifted to other channels for distraction. At first, I found myself
 checking the LinkedIn news feed more often. Something I hardly ever did before starting this experiment. I also started
