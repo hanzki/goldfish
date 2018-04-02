@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why I deleted my \"favourite\" apps"
+date:   2018-04-02 19:00:00 +0300
 tags: personal procrastination productivity
 excerpt: >
     I deleted Facebook & Reddit in effort to curb my smartphone addiction. However, the habit turned out to be musch
