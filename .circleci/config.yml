@@ -1,0 +1,40 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6
+    steps:
+      - checkout
+      - run: bundle exec jekyll build
+
+  deploy:
+    docker:
+      - image: circleci/ruby:2.6
+    environment:
+      JEKYLL_ENV: production
+    steps:
+      - run: bundle exec jekyll build
+      - run:
+          name: Install AWS CLI
+          command: |
+            sudo apt-get install python-dev
+            curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+            unzip awscli-bundle.zip
+            sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+      - run:
+          name: Deploy to S3
+          command: |
+            aws s3 sync --delete ./_site/ s3://blog.huhtanen.eu/
+            aws cloudfront create-invalidation --distribution-id EDMH0RUVBGYYX --paths "/*"
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
