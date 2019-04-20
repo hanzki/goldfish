@@ -15,6 +15,7 @@ jobs:
       JEKYLL_ENV: production
     steps:
       - checkout
+      - run: bundle install
       - run: bundle exec jekyll build
       - run:
           name: Install AWS CLI
