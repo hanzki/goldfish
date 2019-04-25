@@ -1,0 +1,20 @@
+.comment {
+  background-color: $complementary-neutral-dark;
+  color: $complementary-gray;
+  margin: 5px;
+  padding: 0.5em 0.5em 0.25em 1em;
+}
+
+.comment-author {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.comment-time {
+  float: right;
+  font-size: small;
+}
+
+.comment-content {
+  display: block;
+}
