@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-const API_URL = 'https://9xpxcvmaaa.execute-api.eu-west-1.amazonaws.com/dev/posts/1/comments';
+const API_URL = 'https://9xpxcvmaaa.execute-api.eu-west-1.amazonaws.com/dev/posts/2/comments';
 
 class Comment extends React.Component {
 
@@ -33,10 +33,18 @@ class CommentList extends React.Component {
         Comment, {key: index, author: comment.author, timestamp: comment.timestamp.toDateString(), content: comment.content}
       )
     );
-    return e(
-      'div', {className: 'comments'},
-      listOfComments
-    );
+
+    if(listOfComments.length) {
+      return e(
+        'div', {className: 'comments'},
+        listOfComments
+      );
+    } else {
+      return e(
+        'p', null,
+        'There are currently no comments.'
+      )
+    }
   }
 
 }
@@ -112,7 +120,7 @@ class CommentModule extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {comments: []};
+    this.state = {comments: undefined};
 
     this.onNewComment = this.onNewComment.bind(this);
 
@@ -134,10 +142,17 @@ class CommentModule extends React.Component {
   }
 
   render() {
+    let commentList;
+    if(this.state.comments) {
+      commentList = e(CommentList, {comments: this.state.comments});
+    } else {
+      commentList = e('p', null, 'Loading comments...')
+    }
+
     return e(
       'div', {className: 'comment-module'},
       e('h2', null, 'Comments'),
-      e(CommentList, {comments: this.state.comments}),
+      commentList,
       e(NewCommentControls, {onNewComment: this.onNewComment})
     )
   }
