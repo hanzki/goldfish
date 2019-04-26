@@ -2,6 +2,7 @@
   margin: 0 0 0.75em 0;
   padding: 0 0 0.25em 1em;
   border-bottom: solid 1px $primary-neutral-light;
+  overflow: auto;
 }
 
 .comment-author {
@@ -18,4 +19,49 @@
 .comment-content {
   display: block;
   white-space: pre-wrap;
+}
+
+.comment-add-controls {
+  margin-top: 2em;
+
+  #newCommentContent {
+    width: 73%;
+    height: 5em;
+    float: left;
+  }
+
+  .author-input-wrapper {
+    width: 25%;
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    margin-bottom: 0.5em;
+
+    label {
+      font-size: small;
+      color: $neutral-gray;
+    }
+
+    input#newCommentAuthor {
+      background-color: transparent;
+      border: none;
+      border-bottom: solid 1px $primary-neutral-light;
+    }
+  }
+
+  #newCommentSubmitButton {
+    float: right;
+    border: none;
+    background-color: $primary-color;
+    color: $white;
+    padding: 5px 10px;
+    font-size: medium;
+    border-top: solid 2px lighten($primary-color, 10);
+    border-bottom: solid 2px darken($primary-color, 10);
+
+    &:active {
+      background-color: darken($primary-color, 10);
+      border-top: solid 2px darken($primary-color, 15);
+    }
+  }
 }

@@ -45,7 +45,7 @@ class NewCommentControls extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {commentContent: '', commentAuthor: 'Anonymous'};
+    this.state = {commentContent: '', commentAuthor: ''};
 
     this.onNewComment = this.props.onNewComment;
 
@@ -88,13 +88,20 @@ class NewCommentControls extends React.Component {
       e(
         'form', {onSubmit: this.handleSubmit},
         e(
-          'textarea', {id: 'newCommentContent', name: 'commentContent', value: this.state.commentContent, onChange: this.handleChange}
+          'textarea', {id: 'newCommentContent', name: 'commentContent', placeholder: 'Leave a comment!', value: this.state.commentContent, onChange: this.handleChange}
         ),
         e(
-          'input', {type: 'text', id: 'newCommentAuthor', name: 'commentAuthor', value: this.state.commentAuthor, onChange: this.handleChange}
+          'div', {className: 'author-input-wrapper'},
+          e(
+            'label', {htmlFor: 'newCommentAuthor'},
+            'Name: '
+          ),
+          e(
+            'input', {type: 'text', id: 'newCommentAuthor', name: 'commentAuthor', placeholder: 'Anonymous', value: this.state.commentAuthor, onChange: this.handleChange}
+          ),
         ),
         e(
-          'input', {type: 'submit', id: 'newCommentSubmitButton'}
+          'input', {type: 'submit', id: 'newCommentSubmitButton', value: 'Comment'}
         )
       )
     )
@@ -144,12 +151,6 @@ function parseApiComment(comment) {
     timestamp: new Date(comment.comment_timestamp)
   }
 }
-
-const comments = [
-  {author: 'Bob', timestamp: new Date(), content: 'First!'},
-  {author: 'Alice', timestamp: new Date(), content: 'Repost. Unsubscribe!'},
-  {author: 'Hanzki', timestamp: new Date(), content: 'Hitler did nothing wrong'},
-];
 
 const domContainer = document.querySelector('#goldfish_thread');
 ReactDOM.render(e(CommentModule), domContainer);
